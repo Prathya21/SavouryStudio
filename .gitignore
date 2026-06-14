@@ -6,3 +6,34 @@ logs/
 *.log
 
 savourystudio.db
+
+# Environment variables (Crucial for security!)
+.env
+.env.development
+.env.production
+.env.staging
+
+# Python virtual environment
+venv/
+ENV/
+env/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database
+savourystudio.db
+
+# Application logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Documentation / Project Proposals (Optional, but usually better left out of the code repo)
+*.docx
